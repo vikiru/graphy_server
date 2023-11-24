@@ -1,4 +1,4 @@
-FROM python:3.13-rc-slim
+FROM node:21-slim
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
