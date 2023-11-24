@@ -1,4 +1,5 @@
 FROM node:21
+FROM python:3.13.0a1-bookworm
 COPY graphserver.js .
 COPY package.json .
 COPY UScities.json .
